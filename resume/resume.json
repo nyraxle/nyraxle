@@ -27,7 +27,7 @@
     {
       "company": "CWI",
       "position": "Desenvolvedor",
-      "startDate": "2014-11",
+      "startDate": "2014-11-02",
       "highlights": [
         "Atualmente: Desenvolvedor front-end em uma aplicaçao voltada para a gestao condominial. Tecnologias: Angular 4, Typescript, Webpack, docker, dotnet core",
         "Niely - eCoop: Sistema de gestão de ações de marketing e cooperações comerciais da L’Óreal – Niely Brasil. Atuei como desenvolvedor full stack. Tecnologias: AngularJS, ASP.NET Web API, Entity Framework, Git, Grunt, SQL Server, TeamCity (CI), Specflow",
@@ -41,8 +41,8 @@
     {
       "company": "Datum T.I",
       "position": "Estagio",
-      "startDate": "2011-11",
-      "endDate": "2013-06"
+      "startDate": "2011-11-30",
+      "endDate": "2013-06-05"
     }
   ],
   "education": [
@@ -50,8 +50,8 @@
       "institution": "PUCRS",
       "area": "Sistemas de Informaçao",
       "studyType": "Bacharel",
-      "startDate": "2011-01",
-      "endDate": "2015-12"
+      "startDate": "2011-03-01",
+      "endDate": "2016-01-05"
     }
   ],
   "publications": [
