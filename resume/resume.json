@@ -20,6 +20,11 @@
         "network": "npm",
         "username": "kalvasflam",
         "url": "https://npmjs.org/~kalvasflam"
+      },
+      {
+        "network": "PDF",
+        "user": "download",
+        "url": "http://nyraxle.me/resume/resume.pdf"
       }
     ]
   },
@@ -29,13 +34,13 @@
       "position": "Desenvolvedor",
       "startDate": "2014-11-02",
       "highlights": [
-        "Atualmente: Desenvolvedor front-end em uma aplicaçao voltada para a gestao condominial. Tecnologias: Angular 4, Typescript, Webpack, docker, dotnet core",
+        "Atualmente: Desenvolvedor front-end em uma aplicação voltada para a gestão condominial. Tecnologias: Angular 4, Typescript, Webpack, docker, dotnet core",
         "Niely - eCoop: Sistema de gestão de ações de marketing e cooperações comerciais da L’Óreal – Niely Brasil. Atuei como desenvolvedor full stack. Tecnologias: AngularJS, ASP.NET Web API, Entity Framework, Git, Grunt, SQL Server, TeamCity (CI), Specflow",
         "Fleury - CR: Reescrita de um projeto legado em VB para Web. Montei a arquitetura de front-end e atuei no desenvolvimento do front e back-end da aplicação. Tecnologias: Angular, Webpack, Dapper .NET, WCF, ASP.NET Web API.",
         "Credz - Portal Pessoa Juridica: Portal pessoa jurídica e sistema de gestão de crédito de pessoas jurídicas para a  bandeira Credz. Desenvolvi a arquitetura front-end da aplicação Single-page e atuei em diversas funcionalidades no back-end. Tecnologias: AngularJS, ASP.NET Web API, Entity Framework, Gulp, SQL Server",
         "Elefante Letrado: Sistema de ebooks para o publico infanto-juvenil. Participei do desenvolvimento do front e back-end do painel estatistico. Tecnologias: AngularJS, .NET, Entity Framework",
         "Finaud - RiskDriver: Sistema de gestão de risco financeiro. Atuei na segunda fase no desenvolvimento de funcionalidades como a importação de dados do Banco Central e a geração de formulários dinâmicos em Web. Tecnologias: AngularJS, ASP.NET MVC, Entity Framework, SQL Server.",
-        "Credz - Fabrica: Sistemas de gerenciamento de crédito para pessoa física, SGC, Portal. Atuei em front e back - end na manutenção dos sistemas legados existentes. Tecnologias: ASP.NET MVC, Entity Framework, SQL Server, WCF, ASP.NET Web API."
+        "Credz - Fabrica: Sistemas de gerenciamento de crédito para pessoa física, SGC, Portal. Atuei em front e back-end na manutenção dos sistemas legados existentes. Tecnologias: ASP.NET MVC, Entity Framework, SQL Server, WCF, ASP.NET Web API."
       ]
     },
     {
@@ -100,7 +105,7 @@
   ],
   "languages": [
     {
-      "fluency": "le bem, compreende bem, fala razoavelmente, escreve razoavelmente",
+      "fluency": "lê bem, compreende bem, fala razoavelmente, escreve razoavelmente",
       "language": "Ingles"
     }
   ],
