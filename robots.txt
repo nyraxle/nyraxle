@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /resume/
+Disallow: http://nyraxle.me/resume/public/index.html
