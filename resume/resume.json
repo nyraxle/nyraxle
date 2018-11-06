@@ -4,7 +4,7 @@
     "label": "Desenvolvedor",
     "picture": "",
     "email": "eduardo.arnold@outlook.com",
-    "phone": "(051) 98099-5374",
+    "phone": "(051) 98039-5374",
     "location": {
       "address": "Centro",
       "city": "Porto Alegre",
@@ -34,9 +34,9 @@
       "position": "Desenvolvedor",
       "startDate": "2014-11-02",
       "highlights": [
-        "Atualmente: Desenvolvedor front-end em uma aplicação voltada para a gestão condominial. Tecnologias: Angular 4, Typescript, Webpack, docker, dotnet core",
+        "Atualmente: Auxiliadora Predial: Desenvolvimento de uma aplicação voltada para a gestão condominial utilizando conceitos de microserviços. Tecnologias: Angular, Typescript, dotnet core",
         "Niely - eCoop: Sistema de gestão de ações de marketing e cooperações comerciais da L’Óreal – Niely Brasil. Atuei como desenvolvedor full stack. Tecnologias: AngularJS, ASP.NET Web API, Entity Framework, Git, Grunt, SQL Server, TeamCity (CI), Specflow",
-        "Fleury - CR: Reescrita de um projeto legado em VB para Web. Montei a arquitetura de front-end e atuei no desenvolvimento do front e back-end da aplicação. Tecnologias: Angular, Webpack, Dapper .NET, WCF, ASP.NET Web API.",
+        "Fleury - CR: Reescrita de um projeto legado em VB para Web. Montei a arquitetura de front-end e atuei no desenvolvimento do front e back-end da aplicação. Tecnologias: AngularJS, Webpack, Dapper .NET, WCF, ASP.NET Web API.",
         "Credz - Portal Pessoa Juridica: Portal pessoa jurídica e sistema de gestão de crédito de pessoas jurídicas para a  bandeira Credz. Desenvolvi a arquitetura front-end da aplicação Single-page e atuei em diversas funcionalidades no back-end. Tecnologias: AngularJS, ASP.NET Web API, Entity Framework, Gulp, SQL Server",
         "Elefante Letrado: Sistema de ebooks para o publico infanto-juvenil. Participei do desenvolvimento do front e back-end do painel estatistico. Tecnologias: AngularJS, .NET, Entity Framework",
         "Finaud - RiskDriver: Sistema de gestão de risco financeiro. Atuei na segunda fase no desenvolvimento de funcionalidades como a importação de dados do Banco Central e a geração de formulários dinâmicos em Web. Tecnologias: AngularJS, ASP.NET MVC, Entity Framework, SQL Server.",
@@ -45,7 +45,7 @@
     },
     {
       "company": "Datum T.I",
-      "position": "Estagio",
+      "position": "Estagiário",
       "startDate": "2011-11-30",
       "endDate": "2013-06-05"
     }
@@ -76,11 +76,10 @@
         "Typescript",
         "ES6",
         "NodeJS",
+        "Angular",
         "AngularJS",
         "Webpack",
         "Gulp",
-        "Angular 2",
-        "Angular 4",
         "Bower",
         "Grunt",
         "HTML5",
@@ -124,13 +123,6 @@
       "keywords": [
         "Unity",
         "Construct"
-      ]
-    },
-    {
-      "name": "Cycling",
-      "keywords": [
-        "Fixed gear",
-        "Bikepacking"
       ]
     }
   ]
