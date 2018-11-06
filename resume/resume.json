@@ -23,8 +23,8 @@
       },
       {
         "network": "PDF",
-        "user": "download",
-        "url": "http://nyraxle.me/resume/resume.pdf"
+        "username": "download",
+        "url": "https://github.com/nyraxle/nyraxle/raw/master/resume/resume.pdf"
       }
     ]
   },
