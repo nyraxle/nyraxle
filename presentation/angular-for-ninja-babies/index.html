@@ -1,0 +1,222 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <title>Angular for ninja babies</title>
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/reveal.css">
+  <link rel="stylesheet" href="css/theme/final.css">
+
+  <!-- Theme used for syntax highlighting of code -->
+  <link rel="stylesheet" href="lib/css/monokai.css">
+
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+    document.getElementsByTagName('head')[0].appendChild(link);
+  </script>
+</head>
+
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section>
+        <h1>Angular for Ninja Babies</h1>
+      </section>
+      <section>
+        <div style="text-align: left;">
+          <h2>Agenda</h2>
+          <span>Angular</span><br>
+          <span>Typescript</span><br>
+          <span>App</span>
+        </div>
+      </section>
+      <section style="text-align: left;">
+        <section>
+          <h2>Angular</h2>
+          <p class="fragment">Getting Started</p>
+          <p class="fragment">CLI</p>
+        </section>
+        <section>
+          <h2>Getting started</h2><br>
+          <p class="fragment">Why?</p>
+          <a class="fragment" href="https://angular.io/cli" target="_blank" rel="noopener noreferrer">docs (link)</a>
+          <a class="fragment" href="https://angular.io/guide/styleguide" target="_blank" rel="noopener noreferrer">Style
+            Guide (link)</a>
+          <aside class="notes">
+            <small style="font-size: 12px;"><strong>Getting started</strong></small><br>
+            <small style="font-size: 12px;">Onde conseguir o básico?</small><br>
+            <small style="font-size: 12px;">Incentivar o uso</small><br>
+          </aside>
+        </section>
+        <section>
+          <h2>CLI</h2>
+          <a class="fragment" href="https://angular.io/cli" target="_blank" rel="noopener noreferrer">docs
+            (link)</a><br>
+          <p class="fragment">Boilerplates</p>
+          <p class="fragment">AOT</p>
+          <aside class="notes">
+            <small style="font-size: 12px;"><strong>CLI</strong></small><br>
+            <small style="font-size: 12px;">Gerador de boilerplate</small><br>
+            <small style="font-size: 12px;">Comandos</small><br>
+            <small style="font-size: 12px;"><strong>Conclusão</strong></small><br>
+            <small style="font-size: 12px;">Usa webpack</small><br>
+            <small style="font-size: 12px;">AOT (Ahead of Time compiler)</small><br>
+            <small style="font-size: 12px;">Metadata errors (exibe os erros em um pre-compiling)
+              (Typescript)</small><br>
+            <small style="font-size: 12px;">Template type checking</small>
+          </aside>
+        </section>
+      </section>
+      <section style="text-align: left;">
+        <h1>Typescript</h1>
+        <a class="fragment" href="https://www.typescriptlang.org/" target="_blank" rel="noopener noreferrer">WHO?
+          (link)</a><br>
+        <a class="fragment" href="https://vsavkin.com/writing-angular	-2-in-typescript-1fa77c78d8e8" target="_blank"
+          rel="noopener noreferrer">WHY? (link)</a><br>
+        <a class="fragment" href="https://basarat.gitbook.io/typescript/" target="_blank" rel="noopener noreferrer">Good
+          Practices (link)</a><br>
+        <a class="fragment" href="https://microsoft.github.io/TypeSearch/" target="_blank"
+          rel="noopener noreferrer">TypeSearch (link)</a><br>
+        <a class="fragment" href="https://palantir.github.io/tslint/" target="_blank" rel="noopener noreferrer">Lint
+          (link)</a>
+        <aside class="notes">
+          <small style="font-size: 12px;"><strong>WHY?</strong></small><br>
+          <small style="font-size: 12px;">Menos permissivo</small><br>
+          <small style="font-size: 12px;">Tipagem</small><br>
+          <small style="font-size: 12px;">Abstração</small><br>
+          <small style="font-size: 12px;">Padrões</small><br>
+          <small style="font-size: 12px;">KISS / SRP</small><br>
+          <small style="font-size: 12px;">Intellisense</small><br>
+          <small style="font-size: 12px;"><strong>Boas Práticas?</strong></small><br>
+          <small style="font-size: 12px;">Vindas do C#</small><br>
+          <small style="font-size: 12px;">"Fugir" do velho JS</small><br>
+          <small style="font-size: 12px;">Reduz esforço para manutenção</small><br>
+          <small style="font-size: 12px;"><strong>Typesearch?</strong></small><br>
+          <small style="font-size: 12px;">Não tipados > Tipados</small><br>
+          <small style="font-size: 12px;">Crie seu proprio tipo</small><br>
+          <small style="font-size: 12px;">exemplo lodash</small><br>
+          <small style="font-size: 12px;">exemplo analytics</small>
+          <small style="font-size: 12px;"><strong>Lint</strong></small><br>
+          <small style="font-size: 12px;">Type assertion</small><br>
+          <small style="font-size: 12px;">Crie seu lint</small>
+        </aside>
+      </section>
+      <section style="text-align: left;">
+        <section>
+          <h1>Building 1 App</h1>
+          <aside class="notes">
+            :^) Real applications...
+          </aside>
+        </section>
+        <section>
+          <h3>State of Art</h3>
+          <p class="fragment">Entry point</p>
+          <p class="fragment">Modularization</p>
+          <p class="fragment">SRP</p>
+          <p class="fragment">TDRY</p>
+          <p class="fragment">KISS</p>
+          <aside class="notes">
+            <small style="font-size: 12px;"><strong>Entry point</strong></small><br>
+            <small style="font-size: 12px;">Um modulo to rule them all</small><br>
+            <small style="font-size: 12px;">Não sabe nada dos outros</small><br>
+            <small style="font-size: 12px;">Maestro da orquestração</small><br>
+            <small style="font-size: 12px;"><strong>Modularization</strong></small><br>
+            <small style="font-size: 12px;">Retratar o domínio</small><br>
+            <small style="font-size: 12px;">Ter genéricos</small><br>
+            <small style="font-size: 12px;">Ter de uso comum (shared)</small><br>
+            <small style="font-size: 12px;"><strong>SRP</strong></small><br>
+            <small style="font-size: 12px;">Responsabilidade única</small><br>
+            <small style="font-size: 12px;">Trabalhar com entrada e saída (funcional)</small>
+          </aside>
+        </section>
+        <section>
+          <h3>...nos detalhes</h3>
+          <p class="fragment">modules</p>
+          <p class="fragment">routes</p>
+          <p class="fragment">components</p>
+          <p class="fragment">services</p>
+          <p class="fragment">directives</p>
+          <p class="fragment">interceptors</p>
+          <aside class="notes">
+            <small style="font-size: 12px;"><strong>Modules</strong></small><br>
+            <small style="font-size: 12px;">Onde tudo começa</small><br>
+            <small style="font-size: 12px;"><strong>Routes</strong></small><br>
+            <small style="font-size: 12px;">Quem vai pra quem?</small><br>
+            <small style="font-size: 12px;">Nosso orquestrador</small><br>
+            <small style="font-size: 12px;"><strong>Components</strong></small><br>
+            <small style="font-size: 12px;">Pequeno por favor</small><br>
+            <small style="font-size: 12px;">Faz só uma coisa mas bem feita por favor</small><br>
+            <small style="font-size: 12px;"><strong>Services</strong></small><br>
+            <small style="font-size: 12px;">O negócio</small><br>
+            <small style="font-size: 12px;">Aqui vai o pesado</small><br>
+            <small style="font-size: 12px;">Ele quem compartilha estados</small><br>
+            <small style="font-size: 12px;">Singleton</small><br>
+            <small style="font-size: 12px;">Armazena dados, faz chamadas pra API etc..</small><br>
+            <small style="font-size: 12px;"><strong>Interceptors</strong></small><br>
+            <small style="font-size: 12px;">A Alfandega</small><br>
+            <small style="font-size: 12px;">Ele que vê nossos erros</small><br>
+            <small style="font-size: 12px;">Quem fiscaliza</small><br>
+            <small style="font-size: 12px;">Quem empacota</small><br>
+            <small style="font-size: 12px;">Quem traduz</small><br>
+          </aside>
+        </section>
+      </section>
+      <section>
+        THX BYE<br>
+        <small style="font-size: 16px;">Made with ♥ using <a href="https://revealjs.com/" target="_blank"
+            rel="noopener noreferrer">revealJS</a></small><br>
+        <small style="font-size: 16px;">Useful links ➡</small>
+      </section>
+      <section>
+        <h4>
+          References
+        </h4>
+        <div style="font-size: 20px;">
+          <a href="https://airbnb.io/javascript/" target="_blank" rel="noopener noreferrer">Airbnb Javascript
+            StyleGuide</a><br>
+          <a href="https://basarat.gitbook.io/typescript/" target="_blank" rel="noopener noreferrer">Barasat Typescript
+            Deep Dive</a><br>
+          <a href="https://github.com/DefinitelyTyped/" target="_blank" rel="noopener noreferrer">Definitely
+            Typed</a><br>
+          <a href="https://github.com/Diullei/TS-StyleCop" target="_blank" rel="noopener noreferrer">TS-StyleCop (under
+            construction)</a><br>
+          <a href="https://medium.com/@OPTASY.com/what-are-the-5-most-common-angular-mistakes-that-developers-make-53f6d7c5bf65"
+            target="_blank" rel="noopener noreferrer">Common angular mistakes</a><br>
+          <a href="https://angular.io/guide/lifecycle-hooks" target="_blank" rel="noopener noreferrer">LifeCycle
+            Hooks</a><br>
+          <a href="https://hackernoon.com/everything-you-need-to-know-about-the-expressionchangedafterithasbeencheckederror-error-e3fd9ce7dbb4"
+            target="_blank" rel="noopener noreferrer">ExpressionChangedAfterItHasBeenCheckedError</a><br>
+          <a href="https://www.learnrxjs.io/" target="_blank" rel="noopener noreferrer">Learn RXJS</a><br>
+
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <script src="js/reveal.js"></script>
+
+  <script>
+    // More info about config & dependencies:
+    // - https://github.com/hakimel/reveal.js#configuration
+    // - https://github.com/hakimel/reveal.js#dependencies
+    Reveal.initialize({
+      hash: true,
+      dependencies: [
+        { src: 'plugin/markdown/marked.js' },
+        { src: 'plugin/markdown/markdown.js' },
+        { src: 'plugin/highlight/highlight.js' },
+        { src: 'plugin/notes/notes.js', async: true }
+      ]
+    });
+  </script>
+</body>
+
+</html>
